@@ -25,20 +25,30 @@ ul li{
 }
 
 .item {
-    margin: 5px;
-    padding: 5px;
+    margin: 2px;
+    padding: 10px;
     background: #D8D5D2;
-    width:180px;
+    width: 200px;
     float: left;
-    background:#ccc;
+    background: #ccc;
 }
-
+.h2 span
+{
+	font-size:1em !important;
+	display:block;
+}
+.middle,.top {
+    display: block;
+    padding: 10px 0;
+}
 .h1 {
-    height:100px;
+    height:250px;
+    font-size:1em !important;
 }
 
 .h2 {
-    height:200px;
+    height:300px;
+    font-size:1em !important;
 }
 
 /*----
@@ -121,4 +131,80 @@ text-decoration:underline;အနအအန
 .inner_visual li.inner_visual_3{
 	background:url(../img/honki_recruitment_icon_3.gif) 0 5px no-repeat;
 	margin-right:0;
+}
+
+ .top_infobox {
+}
+
+ .top_infoboxin {
+	width: 950px;
+	margin: 0 auto;
+	padding: 30px 0 0 0;
+}
+
+ .top_infoboxin .newsbox {
+    margin-bottom: 10px;
+    text-align: left;
+    width: 950px;
+	
+}
+
+ .top_infoboxin .newsbox_in {
+}
+ .top_infoboxin .newsbox_in .article{
+	width: 300px;
+	float: left;
+	margin-right: 21px;
+	_margin-right: 10px;
+	border:1px solid #ccc;
+	border-top:0;
+}
+ .top_infoboxin .newsbox_in .article.right{
+	margin-right: 0;
+}
+
+
+ .top_infoboxin .newsbox_in .article_in {
+}
+ .top_infoboxin .newsbox_in .article_title{
+	border-top:1px solid #b50000;
+	border-bottom:1px dotted #999999;
+}
+ .top_infoboxin .newsbox_in .article_inner {
+	overflow-y: scroll;
+
+	height: 200px;
+	padding:10px;
+	border-top:0;
+}
+
+ .top_infoboxin .newsbox_in .article_inner dl {
+	width: 260px;
+	margin-bottom: 15px;
+}
+
+ .top_infoboxin .newsbox_in .article_inner dl dd a {
+	text-decoration: underline;
+}
+ .top_infoboxin .newsbox_in .article_inner dl dd a:hover,
+ .top_infoboxin .newsbox_in .article_inner dl dd a:active {
+	text-decoration: none;
+}
+
+ .top_bnr {
+	text-align:center;
+}
+
+ .top_bnr ul {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+ .top_bnr ul li {
+	display:inline;
+	margin-right: 15px;
+}
+
+ .top_bnr ul li.last {
+	margin-right: 0;
 }
