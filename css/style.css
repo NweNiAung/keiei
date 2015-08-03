@@ -26,11 +26,23 @@ ul li{
 
 .item {
     margin: 2px;
-    padding: 10px;
+    
     background: #D8D5D2;
     width: 200px;
     float: left;
     background: #ccc;
+}
+.item.h2  > div
+{
+padding: 10px;
+height:300px;	
+	
+}
+.item.h1  > div
+{
+padding: 10px;
+height:250px;	
+	
 }
 .h2 span
 {
@@ -136,22 +148,22 @@ text-decoration:underline;အနအအန
  .top_infobox {
 }
 
- .top_infoboxin {
+ .sub_mainIn {
 	width: 950px;
 	margin: 0 auto;
 	padding: 30px 0 0 0;
 }
 
- .top_infoboxin .newsbox {
+ .sub_mainIn .post_box {
     margin-bottom: 10px;
     text-align: left;
     width: 950px;
 	
 }
 
- .top_infoboxin .newsbox_in {
+ .sub_mainIn .post_box_in {
 }
- .top_infoboxin .newsbox_in .article{
+ .sub_mainIn .post_box_in .article{
 	width: 300px;
 	float: left;
 	margin-right: 21px;
@@ -159,18 +171,19 @@ text-decoration:underline;အနအအန
 	border:1px solid #ccc;
 	border-top:0;
 }
- .top_infoboxin .newsbox_in .article.right{
+ .sub_mainIn .post_box_in .article.right{
 	margin-right: 0;
 }
 
 
- .top_infoboxin .newsbox_in .article_in {
+ .sub_mainIn .post_box_in .article_in {
 }
- .top_infoboxin .newsbox_in .article_title{
+ .sub_mainIn .post_box_in .article_title{
 	border-top:1px solid #b50000;
 	border-bottom:1px dotted #999999;
+	width: 298px;
 }
- .top_infoboxin .newsbox_in .article_inner {
+ .sub_mainIn .post_box_in .article_inner {
 	overflow-y: scroll;
 
 	height: 200px;
@@ -178,33 +191,39 @@ text-decoration:underline;အနအအန
 	border-top:0;
 }
 
- .top_infoboxin .newsbox_in .article_inner dl {
+ .sub_mainIn .post_box_in .article_inner dl {
 	width: 260px;
 	margin-bottom: 15px;
 }
 
- .top_infoboxin .newsbox_in .article_inner dl dd a {
+ .sub_mainIn .post_box_in .article_inner dl dd a {
 	text-decoration: underline;
 }
- .top_infoboxin .newsbox_in .article_inner dl dd a:hover,
- .top_infoboxin .newsbox_in .article_inner dl dd a:active {
+ .sub_mainIn .post_box_in .article_inner dl dd a:hover,
+ .sub_mainIn .post_box_in .article_inner dl dd a:active {
 	text-decoration: none;
 }
 
- .top_bnr {
+ .content_bottom {
 	text-align:center;
 }
 
- .top_bnr ul {
+ .content_bottom ul {
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
 
- .top_bnr ul li {
+ .content_bottom ul li {
 	display:inline;
 	margin-right: 15px;
 }
 
- .top_bnr ul li.last {
+ .content_bottom ul li.last {
 	margin-right: 0;
+}
+.copyRight
+{
+	display:block;
+	text-align:center;
+	
 }

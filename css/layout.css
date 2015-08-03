@@ -97,25 +97,25 @@ body
  .footin .linkbox {
 	padding:25px 0 17px 0;
 	text-align:center;
+	font-size:0.9em;
 }
 .footin .linkbox ul li {
 	display:inline;
-	font-size:90%;
+	
 	line-height:1.1em;
 	padding:0 6px;
 	border-left:1px solid #000;
 }
+.linkbox ul li:first-child
+{
+border-left:0;	
+	
+}
  .footin .linkbox ul li a, #Footer .footin .linkbox ul li a:hover {
 	color:#000;
-}
- .footin .linkbox ul li.top {
-	border-left:0;
-}
- .footin address {
-    font-style: normal;
-    text-align: center;
 }
 #footer_wrapper {
     color: #000;
     border-top: solid 3px #efefef;
+    margin: 20px 0 0 0;
 }
